@@ -1,0 +1,9 @@
+project: savantenvs/iguana
+target: fuzz-yaml
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz-yaml/testsuite
+cmds:
+  - cmd: /mayhem/out/fuzz_yaml
+    libfuzzer: true
+    timeout: 5

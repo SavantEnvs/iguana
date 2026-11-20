@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- comment -->
+<root id="1" lang="en">
+  <b>true</b><c>x</c><i>-5</i><u>99</u><f>1.25</f><d>3e-2</d>
+  <s>a &amp; b &lt; c &#65;</s><sv>view</sv><lv>mid</lv><os>opt</os>
+  <up><key1>u</key1><key2>2</key2></up>
+  <ch><key1>k</key1><key2>3</key2><key3>4.5</key3></ch>
+  <children><key1>a</key1><key2>1</key2></children>
+  <children><key1>b</key1><key2>2</key2></children>
+  <books title="T1"><author>A</author><years>1999</years><years>2000</years></books>
+  <names>n1</names><names>n2</names>
+  <attrc x="1" y="2"><key1>z</key1><key2>9</key2></attrc>
+  <cdata><![CDATA[raw <data> & stuff]]></cdata>
+</root>
